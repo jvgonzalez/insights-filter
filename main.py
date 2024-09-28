@@ -7,7 +7,7 @@ from datetime import datetime
 st.set_page_config(page_title="Insights Filter", page_icon="🎫", layout="wide")
 
 # Title
-st.title("🎫 Insights Filter (Updated)")
+st.title("🎫 Insights Filter")
 
 # File uploader
 uploaded_file = st.file_uploader("Upload your CSV file", type="csv")
